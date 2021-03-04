@@ -5,8 +5,21 @@ $titleFont: "Fraunces", 'Sans-serif';
 $regularFont: "Barlow", 'Sans-serif';
 
 h1 {
-    font-size: 72px;
+    font-family: $titleFont;
+    font-size: 40px;
+    line-height: 0.9;
+
+    @include tablet {
+        font-size: 48px;
+    }
+    @include desktop {
+        font-size: 56px;
+    }
+    @include large-desktop {
+        font-size: 72px;
+    }
 }
+
 h2 {
     font-size: 40px;
 }
@@ -18,4 +31,6 @@ h4 {
 }
 p, a, li {
     font-size: 16px;
+    font-family: $regularFont;
+    line-height: 1.5;
 }

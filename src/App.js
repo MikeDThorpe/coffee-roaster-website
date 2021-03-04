@@ -1,13 +1,17 @@
 import './App.scss';
+import React, {useState} from 'react'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Header } from './components'
+import { Header, MobileNavigation } from './components/global'
 import { HomePage, AboutPage, SubscriptionPage } from './pages'
 
 function App() {
+  const [mobileNav, setMobileNav] = useState(false);
+
   return (
     <div className="App">
       <Router>
-        <Header />
+        <Header toggleNav={() => setMobileNav(!mobileNav)}/>
+        <MobileNavigation toggleNav={() => setMobileNav(!mobileNav)} show={mobileNav}/>
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/about" component={AboutPage} />

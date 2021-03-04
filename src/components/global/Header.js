@@ -1,25 +1,25 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Logo from '../assets/logo.svg';
+import Logo from '../../assets/logo.svg';
 
-let Header = () => {
+let Header = ({toggleNav}) => {
     return (
         <header>
-            <img alt="coffee roaster logo" src={Logo} />
+            <img alt="coffee roaster logo" className="logo" src={Logo} />
             <nav>
                 <Link to="/">
-                    <p>Home</p>
+                    <p>HOME</p>
                 </Link>
 
                 <Link to="/about">
-                    <p>About</p>
+                    <p>ABOUT</p>
                 </Link>
 
                 <Link to="/subscription">
-                    <p>Create a Plan</p>
+                    <p>CREATE A PLAN</p>
                 </Link>
             </nav>
-            <div className="hamburger"></div>
+            <div onClick={() => toggleNav()} className="hamburger"></div>
         </header>
     )
 }

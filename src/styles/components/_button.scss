@@ -1,0 +1,19 @@
+button {
+    width: 217px;
+    height: 56px;
+    background-color: $darkCyan;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+button:hover {
+    background-color: $paleBlue;
+}
+.button-disabled {
+    background-color: $lightGrey;
+}
