@@ -8,15 +8,15 @@ let Header = ({toggleNav}) => {
             <img alt="coffee roaster logo" className="logo" src={Logo} />
             <nav>
                 <Link to="/">
-                    <p>HOME</p>
+                    <p>Home</p>
                 </Link>
 
                 <Link to="/about">
-                    <p>ABOUT</p>
+                    <p>About Us</p>
                 </Link>
 
                 <Link to="/subscription">
-                    <p>CREATE A PLAN</p>
+                    <p>Create a Plan</p>
                 </Link>
             </nav>
             <div onClick={() => toggleNav()} className="hamburger"></div>

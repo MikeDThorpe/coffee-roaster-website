@@ -21,13 +21,19 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-family: $titleFont;
+    font-size: 35px;
+    @include tablet {
+        font-size: 40px;
+    }
 }
 h3 {
-    font-size: 32px;
+    font-family: $titleFont;
+    font-size: 30px;
 }
 h4 {
-    font-size: 24px;
+    font-family: $titleFont;
+    font-size: 22px;
 }
 p, a, li {
     font-size: 16px;
