@@ -1,9 +1,11 @@
 // design tokens
 @import './styles//design-tokens/breakpoints';
+@import './styles//design-tokens/transitions';
 @import './styles/design-tokens/fonts';
 @import './styles/design-tokens/colours';
 // components
 @import './styles/components/header';
+@import './styles/components/footer';
 @import './styles/components/mobileNav';
 @import './styles/components/heroBanner';
 @import './styles/components/button';

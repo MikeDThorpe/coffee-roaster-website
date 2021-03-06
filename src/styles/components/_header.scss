@@ -2,12 +2,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    a {
+
+    p {
+        font-size: 18px;
         color: $grey;
-        :hover {
-            font-weight: bold;
-        }
     }
 
     nav {

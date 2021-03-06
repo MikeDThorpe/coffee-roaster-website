@@ -1,7 +1,7 @@
 import './App.scss';
 import React, {useState} from 'react'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Header, MobileNavigation } from './components/global'
+import { Header, MobileNavigation, Footer } from './components/global'
 import { HomePage, AboutPage, SubscriptionPage } from './pages'
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
           <Route exact path="/about" component={AboutPage} />
           <Route exact path="/subscription" component={SubscriptionPage} />
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

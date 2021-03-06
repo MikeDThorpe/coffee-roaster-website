@@ -1,5 +1,5 @@
 import React from 'react'
-import {HeroBanner, CoffeeSelection, SellingPoints} from '../components/Home'
+import {HeroBanner, CoffeeSelection, SellingPoints, OrderingProcess} from '../components/Home'
 
 let HomePage = () => {
     return ( 
@@ -7,6 +7,7 @@ let HomePage = () => {
             <HeroBanner />
             <CoffeeSelection />
             <SellingPoints />
+            <OrderingProcess />
         </div>
     )
 }

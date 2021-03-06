@@ -33,12 +33,23 @@
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    
     @include tablet {
         background-image: url("../../assets/home/tablet/image-hero-coffeepress.jpg");
     }
-
     @include desktop {
         background-image: url("../../assets/home/desktop/image-hero-coffeepress.jpg");
+    }
+}
+.subscription-hero-banner {
+    @extend %hero-banner;
+    background-image: url("../../assets/plan/mobile/image-hero-blackcup.jpg");
+    p {
+        margin-top: 30px;
+    }
+    @include tablet {
+        background-image: url("../../assets/plan/tablet/image-hero-blackcup.jpg");
+    }
+    @include desktop {
+        background-image: url("../../assets/plan/desktop/image-hero-blackcup.jpg");
     }
 }
