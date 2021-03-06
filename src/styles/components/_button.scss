@@ -15,6 +15,6 @@ button {
 button:hover {
     background-color: $paleBlue;
 }
-.button-disabled {
+button:disabled, button[disabled=true] {
     background-color: $lightGrey;
 }

@@ -1,10 +1,11 @@
 import React from 'react'
-import {HeroBanner} from '../components/Subscription';
+import {HeroBanner, OrderSection} from '../components/Subscription';
 
 let SubscriptionPage = () => {
     return ( 
         <div>
             <HeroBanner />
+            <OrderSection />
         </div>
     )
 }
