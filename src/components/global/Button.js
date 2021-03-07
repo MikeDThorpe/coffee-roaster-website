@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-let Button = ({ text, link }) => {
+let Button = ({ text, link, disabled }) => {
     return (
         <Link to={link}>
-            <button>
+            <button disabled={disabled}>
                 {text}
             </button>
         </Link>

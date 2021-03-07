@@ -3,10 +3,10 @@ import {HeroBanner, OrderSection} from '../components/Subscription';
 
 let SubscriptionPage = () => {
     return ( 
-        <div>
+        <>
             <HeroBanner />
             <OrderSection />
-        </div>
+        </>
     )
 }
 

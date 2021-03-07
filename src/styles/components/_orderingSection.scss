@@ -2,6 +2,7 @@
     max-width: 900px;
     margin: 0 auto;
     padding-top: 120px;
+    cursor: pointer;
     & > h3 {
         margin-bottom: 60px;
         text-align: center;
@@ -20,8 +21,12 @@
     h4 {
         color: $darkGreyBlue;
     }
-    &-number {
-        color: $paleOrange
+    &-options {
+        @include tablet {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 20px;
+        }
     }
 }
 .order-option {
@@ -29,12 +34,8 @@
     padding: 30px;
     border-radius: 10px;
     background-color: $lightGrey;
-
-    &:hover {
-        background-color: $paleOrange;
-    }
+    cursor: pointer;
     h5 {
-        color: $darkGreyBlue;
         margin-bottom: 10px;
     }
 }
@@ -76,4 +77,8 @@
             margin-left: 60px;
         }
     }
+}
+.order-modal {
+    position: absolute;
+    
 }
