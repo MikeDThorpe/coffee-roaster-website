@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import OrderRow from './OrderRow'
 import OrderSummary from './OrderSummary'
 
-let OrderSection = ({order, createOrder}) => {
+let OrderSection = ({order, createOrder, toggleModal}) => {
 
     
     return (
@@ -13,7 +13,7 @@ let OrderSection = ({order, createOrder}) => {
             <OrderRow order={order} createOrder={createOrder} category={"quantity"} number="03" title="Order quantity" content={[{option: "250g", description: "Perfect ammount for the solo coffee drink. Yields around 12 declicious cups"},{option: "500g", description: "Pefect option for a pair of coffee drinkers. Yields around 40 cups"},{option: "1000g", description: "Perfect for offices and events. 90 cups from a single delivery"}]} />
             <OrderRow order={order} createOrder={createOrder} category={"grind"} number="04" title="Coffee grind" content={[{option: "Coarse", description: "Best choice if you cherish a sensory coffee experience"},{option: "Fine", description: "For drip or pour-over coffee like V60 or Aeropress"},{option: "Extra Fine", description: "Extra fine ground coffee for everyday coffee lovers"}]} />
             <OrderRow order={order} createOrder={createOrder} category={"delivery"} number="05" title="Delivery options" content={[{option: "Weekly", description: "Weekly deliver from only £7.20. Includes free, first-class shipping"},{option: "Bi-weekly", description: "£9.60 per shipment delivered straight to your door every two weeks"},{option: "Monthly", description: "£12 per shipment. Fresh coffee to your door once a month"}]} />
-            <OrderSummary order={order}/>
+            <OrderSummary toggleModal={toggleModal} order={order}/>
         </section>
     )
 }

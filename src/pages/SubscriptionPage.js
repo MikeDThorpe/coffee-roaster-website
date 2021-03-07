@@ -24,7 +24,7 @@ let SubscriptionPage = () => {
         <>
             <OrderModal toggleModal={() => setOrderModal(!orderModal)} show={orderModal} order={order}/>
             <HeroBanner />
-            <OrderSection order={order} createOrder={createOrder}/>
+            <OrderSection toggleModal={() => setOrderModal(!orderModal)} order={order} createOrder={createOrder}/>
         </>
     )
 }
