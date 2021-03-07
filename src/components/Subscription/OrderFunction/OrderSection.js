@@ -1,24 +1,9 @@
 import React, {useState} from 'react'
 import OrderRow from './OrderRow'
 import OrderSummary from './OrderSummary'
-import OrderModal from './OrderModal'
 
-let OrderSection = () => {
-    const [order, setOrder] = useState({
-        preferences: "_____",
-        type: "_____",
-        quantity: "_____",
-        grind: "_____",
-        delivery: "_____"
-    })
+let OrderSection = ({order, createOrder}) => {
 
-    let createOrder = (e, category) => {
-        let value = e.currentTarget.id
-        setOrder(prevOrder => ({
-            ...prevOrder,
-            [category]: value
-        }));
-    }
     
     return (
         <section className="ordering-section">
