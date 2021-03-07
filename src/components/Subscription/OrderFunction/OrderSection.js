@@ -1,10 +1,8 @@
-import React, {useState} from 'react'
 import OrderRow from './OrderRow'
 import OrderSummary from './OrderSummary'
 
-let OrderSection = ({order, createOrder, toggleModal}) => {
+let OrderSection = ({order, createOrder, toggleModal, priceOrder}) => {
 
-    
     return (
         <section className="ordering-section">
             <h3>Get started with a plan</h3>

@@ -9,20 +9,35 @@ let SubscriptionPage = () => {
         type: "_____",
         quantity: "_____",
         grind: "_____",
-        delivery: "_____"
+        delivery: "_____",
+        price: undefined
     })
+    const [orderPrice, setOrderPrice] = useState("£0.00")
 
     let createOrder = (e, category) => {
         let value = e.currentTarget.id
         setOrder(prevOrder => ({
             ...prevOrder,
-            [category]: value
+            [category]: value,
         }));
+        if(category === "delivery") {
+            priceOrder(value)
+        }
     }
 
-    return ( 
+    let priceOrder = (delivery) => {
+        if(delivery === "Weekly") {
+            setOrderPrice("£28.80")
+        } else if (delivery === "Bi-weekly") {
+            setOrderPrice("£19.20")
+        } else if(delivery === "Monthly") {
+            setOrderPrice("£12.00")
+        }
+    }
+
+    return (
         <>
-            <OrderModal toggleModal={() => setOrderModal(!orderModal)} show={orderModal} order={order}/>
+            <OrderModal toggleModal={() => setOrderModal(!orderModal)} show={orderModal} order={order} orderPrice={orderPrice}/>
             <HeroBanner />
             <OrderSection toggleModal={() => setOrderModal(!orderModal)} order={order} createOrder={createOrder}/>
         </>

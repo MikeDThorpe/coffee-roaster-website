@@ -1,6 +1,6 @@
 import { Button } from '../../global'
 
-let OrderModal = ({ toggleModal, order, show }) => {
+let OrderModal = ({ toggleModal, order, show, orderPrice }) => {
     let {preferences, type, quantity, grind, delivery} = order;
 
     return (
@@ -17,7 +17,7 @@ let OrderModal = ({ toggleModal, order, show }) => {
                     </p>
                     <small>Is this correct? You can proceed to checkout or go back to plan selection if something is off. Subscription discount codes can also be redeemed at the checkout. </small>
                     <div>
-                        <h5>£40.00<br/>/month</h5>
+                        <h5>{orderPrice}<br/>/month</h5>
                         <Button text="Checkout" />
                     </div>
                 </div>
