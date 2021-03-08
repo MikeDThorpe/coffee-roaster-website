@@ -1,10 +1,13 @@
 import React from 'react'
+import {HeroBanner, OurCommitment, OurQuality} from '../components/About'
 
 let AboutPage = () => {
     return ( 
-        <div>
-            <h1>About Page</h1>
-        </div>
+        <>
+            <HeroBanner />
+            <OurCommitment />
+            <OurQuality />
+        </>
     )
 }
 

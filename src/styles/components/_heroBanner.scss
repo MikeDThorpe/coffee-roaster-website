@@ -25,7 +25,6 @@
         }
     }
 }
-
 .home-hero-banner {
     @extend %hero-banner;
     background-image: url("../../assets/home/mobile/image-hero-coffeepress.jpg");
@@ -51,5 +50,19 @@
     }
     @include desktop {
         background-image: url("../../assets/plan/desktop/image-hero-blackcup.jpg");
+    }
+}
+.about-hero-banner {
+    @extend %hero-banner;
+    margin-bottom: 120px;
+    background-image: url("../../assets/about/mobile/image-hero-whitecup.jpg");
+    p {
+        margin-top: 30px;
+    }
+    @include tablet {
+        background-image: url("../../assets/about/tablet/image-hero-whitecup.jpg");
+    }
+    @include desktop {
+        background-image: url("../../assets/about/desktop/image-hero-whitecup.jpg");
     }
 }
