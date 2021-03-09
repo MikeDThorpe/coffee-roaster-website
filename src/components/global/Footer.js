@@ -7,15 +7,15 @@ let Footer = () => {
         <footer>
             <img src={LogoFooter} alt="coffee roasters logo" />
             <nav>
-                <Link to="/">
+                <Link to="/coffee-roaster-website">
                     <p>Home</p>
                 </Link>
 
-                <Link to="/about">
+                <Link to="/coffee-roaster-website/about">
                     <p>About Us</p>
                 </Link>
 
-                <Link to="/subscription">
+                <Link to="/coffee-roaster-website/subscription">
                     <p>Create a Plan</p>
                 </Link>
             </nav>
