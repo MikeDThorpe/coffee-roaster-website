@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/coffee-roasters-website/static/css/main.9155766b.chunk.css",
+    "main.js": "/coffee-roasters-website/static/js/main.a7f9da6a.chunk.js",
+    "main.js.map": "/coffee-roasters-website/static/js/main.a7f9da6a.chunk.js.map",
+    "runtime-main.js": "/coffee-roasters-website/static/js/runtime-main.64ef60ca.js",
+    "runtime-main.js.map": "/coffee-roasters-website/static/js/runtime-main.64ef60ca.js.map",
+    "static/js/2.93f08362.chunk.js": "/coffee-roasters-website/static/js/2.93f08362.chunk.js",
+    "static/js/2.93f08362.chunk.js.map": "/coffee-roasters-website/static/js/2.93f08362.chunk.js.map",
+    "static/js/3.e4351ed2.chunk.js": "/coffee-roasters-website/static/js/3.e4351ed2.chunk.js",
+    "static/js/3.e4351ed2.chunk.js.map": "/coffee-roasters-website/static/js/3.e4351ed2.chunk.js.map",
+    "index.html": "/coffee-roasters-website/index.html",
+    "static/css/main.9155766b.chunk.css.map": "/coffee-roasters-website/static/css/main.9155766b.chunk.css.map",
+    "static/js/2.93f08362.chunk.js.LICENSE.txt": "/coffee-roasters-website/static/js/2.93f08362.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/coffee-roasters-website/static/media/image-hero-whitecup.fde3b82b.jpg",
+    "static/media/icon-coffee-bean.a39b0780.svg": "/coffee-roasters-website/static/media/icon-coffee-bean.a39b0780.svg",
+    "static/media/icon-gift.611b8a07.svg": "/coffee-roasters-website/static/media/icon-gift.611b8a07.svg",
+    "static/media/icon-truck.6a10e7c2.svg": "/coffee-roasters-website/static/media/icon-truck.6a10e7c2.svg",
+    "static/media/image-commitment.50d01f4c.jpg": "/coffee-roasters-website/static/media/image-commitment.50d01f4c.jpg",
+    "static/media/image-danche.42b87a74.png": "/coffee-roasters-website/static/media/image-danche.42b87a74.png",
+    "static/media/image-gran-espresso.fc5aa0dc.png": "/coffee-roasters-website/static/media/image-gran-espresso.fc5aa0dc.png",
+    "static/media/image-piccollo.304c8160.png": "/coffee-roasters-website/static/media/image-piccollo.304c8160.png",
+    "static/media/image-planalto.33bcba48.png": "/coffee-roasters-website/static/media/image-planalto.33bcba48.png",
+    "static/media/image-quality.9d7a76b2.jpg": "/coffee-roasters-website/static/media/image-quality.9d7a76b2.jpg",
+    "static/media/image-quality.a7ba6c98.jpg": "/coffee-roasters-website/static/media/image-quality.a7ba6c98.jpg",
+    "static/media/image-quality.e888f4e1.jpg": "/coffee-roasters-website/static/media/image-quality.e888f4e1.jpg",
+    "static/media/logo-footer.4bbb824e.svg": "/coffee-roasters-website/static/media/logo-footer.4bbb824e.svg",
+    "static/media/logo.a2512c0f.svg": "/coffee-roasters-website/static/media/logo.a2512c0f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64ef60ca.js",
+    "static/js/2.93f08362.chunk.js",
+    "static/css/main.9155766b.chunk.css",
+    "static/js/main.a7f9da6a.chunk.js"
+  ]
+}
