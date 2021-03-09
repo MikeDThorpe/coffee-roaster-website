@@ -13,7 +13,7 @@ function App() {
         <Header toggleNav={() => setMobileNav(!mobileNav)} />
         <MobileNavigation toggleNav={() => setMobileNav(!mobileNav)} show={mobileNav} />
         <Switch>
-          <Route exact path="/" component={HomePage} />
+          <Route exact path="/home" component={HomePage} />
           <Route exact path="/about" component={AboutPage} />
           <Route exact path="/subscription" component={SubscriptionPage} />
         </Switch>
