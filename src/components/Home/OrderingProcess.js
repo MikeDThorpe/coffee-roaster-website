@@ -32,7 +32,7 @@ let OrderingProcess = () => {
                 </p>
                 </article>
             </section>
-            <Button text="Create your plan" link="/subscription" />
+            <Button text="Create your plan" link="/coffee-roaster-website/subscription" />
         </section>
     )
 }
