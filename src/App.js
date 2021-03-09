@@ -13,9 +13,9 @@ function App() {
         <Header toggleNav={() => setMobileNav(!mobileNav)} />
         <MobileNavigation toggleNav={() => setMobileNav(!mobileNav)} show={mobileNav} />
         <Switch>
-          <Route exact path="/home" component={HomePage} />
-          <Route exact path="/about" component={AboutPage} />
-          <Route exact path="/subscription" component={SubscriptionPage} />
+          <Route exact path="/coffee-roaster-website/" component={HomePage} />
+          <Route exact path="/coffee-roaster-website/about" component={AboutPage} />
+          <Route exact path="/coffee-roaster-website/subscription" component={SubscriptionPage} />
         </Switch>
         <Footer />
       </Router>
