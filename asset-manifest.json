@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/coffee-roaster-website/static/css/main.865c869a.chunk.css",
-    "main.js": "/coffee-roaster-website/static/js/main.f17f0749.chunk.js",
-    "main.js.map": "/coffee-roaster-website/static/js/main.f17f0749.chunk.js.map",
+    "main.js": "/coffee-roaster-website/static/js/main.275504ef.chunk.js",
+    "main.js.map": "/coffee-roaster-website/static/js/main.275504ef.chunk.js.map",
     "runtime-main.js": "/coffee-roaster-website/static/js/runtime-main.7d1a0252.js",
     "runtime-main.js.map": "/coffee-roaster-website/static/js/runtime-main.7d1a0252.js.map",
     "static/js/2.93f08362.chunk.js": "/coffee-roaster-website/static/js/2.93f08362.chunk.js",
@@ -17,12 +17,13 @@
     "static/media/icon-gift.611b8a07.svg": "/coffee-roaster-website/static/media/icon-gift.611b8a07.svg",
     "static/media/icon-truck.6a10e7c2.svg": "/coffee-roaster-website/static/media/icon-truck.6a10e7c2.svg",
     "static/media/image-commitment.50d01f4c.jpg": "/coffee-roaster-website/static/media/image-commitment.50d01f4c.jpg",
+    "static/media/image-commitment.65e06aff.jpg": "/coffee-roaster-website/static/media/image-commitment.65e06aff.jpg",
+    "static/media/image-commitment.e6328e45.jpg": "/coffee-roaster-website/static/media/image-commitment.e6328e45.jpg",
     "static/media/image-danche.42b87a74.png": "/coffee-roaster-website/static/media/image-danche.42b87a74.png",
     "static/media/image-gran-espresso.fc5aa0dc.png": "/coffee-roaster-website/static/media/image-gran-espresso.fc5aa0dc.png",
     "static/media/image-piccollo.304c8160.png": "/coffee-roaster-website/static/media/image-piccollo.304c8160.png",
     "static/media/image-planalto.33bcba48.png": "/coffee-roaster-website/static/media/image-planalto.33bcba48.png",
     "static/media/image-quality.9d7a76b2.jpg": "/coffee-roaster-website/static/media/image-quality.9d7a76b2.jpg",
-    "static/media/image-quality.a7ba6c98.jpg": "/coffee-roaster-website/static/media/image-quality.a7ba6c98.jpg",
     "static/media/image-quality.e888f4e1.jpg": "/coffee-roaster-website/static/media/image-quality.e888f4e1.jpg",
     "static/media/logo-footer.4bbb824e.svg": "/coffee-roaster-website/static/media/logo-footer.4bbb824e.svg",
     "static/media/logo.a2512c0f.svg": "/coffee-roaster-website/static/media/logo.a2512c0f.svg"
@@ -31,6 +32,6 @@
     "static/js/runtime-main.7d1a0252.js",
     "static/js/2.93f08362.chunk.js",
     "static/css/main.865c869a.chunk.css",
-    "static/js/main.f17f0749.chunk.js"
+    "static/js/main.275504ef.chunk.js"
   ]
 }
