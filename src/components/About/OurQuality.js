@@ -1,5 +1,4 @@
 import CoffeeCupDesktop from '../../assets/about/desktop/image-quality.jpg'
-import CoffeeCupTablet from '../../assets/about/tablet/image-quality.jpg'
 import CoffeeCupMobile from '../../assets/about/mobile/image-quality.jpg'
 import {Button} from '../global'
 

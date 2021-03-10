@@ -1,8 +1,15 @@
-import BaristaImg from '../../assets/about/desktop/image-commitment.jpg'
+import BaristaImgDesktop from '../../assets/about/desktop/image-commitment.jpg'
+import BaristaImgTablet from '../../assets/about/tablet/image-commitment.jpg'
+import BaristaImgMobile from '../../assets/about/mobile/image-commitment.jpg'
+
 let OurCommitment = () => {
     return (
         <section className="our-commitment-container">
-            <img src={BaristaImg} alt="barista pouring a cup of coffee" />
+            <picture>
+                <source media="(min-width: 1000px)" srcSet={BaristaImgDesktop} />
+                <source media="(min-width: 768px)" srcSet={BaristaImgTablet} />
+                <img src={BaristaImgMobile} alt="barista pouring a cup of coffee"/>
+            </picture>
             <div>
                 <h3>Our commitment</h3>
                 <p>
